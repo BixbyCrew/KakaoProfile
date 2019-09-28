@@ -1,0 +1,24 @@
+capsule {
+  id (playground.kakaoprofile)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+    target (bixby-mobile-en-US){enabled (false)}
+  }
+runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    allow-dialogs-on-detail-pages
+    modern-default-view-behavior
+    no-fallback-to-result-collections
+    no-filtering-with-validation
+    use-input-views-for-selection-list-detail
+    support-halt-effect-in-computed-inputs
+  }
+
+  permissions{
+    user-profile-access
+  }
+}
+

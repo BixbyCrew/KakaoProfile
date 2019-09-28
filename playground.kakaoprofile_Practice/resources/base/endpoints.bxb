@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Profile) {
+      accepted-inputs (kakaoProfile)
+      local-endpoint ("Profile.js")
+    }
+  }
+}

@@ -1,0 +1,11 @@
+action (Profile) {
+  type(Search)
+  description (카카오톡 프로필을 받아온다.)
+  collect {
+    input (kakaoProfile) {
+      type (kakaoProfile)
+      min (Optional) max (One)
+    }
+  }
+  output (kakaoResult)
+}
