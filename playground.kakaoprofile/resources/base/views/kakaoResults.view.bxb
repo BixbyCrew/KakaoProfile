@@ -1,0 +1,29 @@
+result-view {
+	match: kakaoResult (this)
+	message {
+		template ("카카오톡 프로필을 가져왔어요")
+	}
+	
+	render {
+		layout {
+			section {
+				content {
+					image{
+						aspect-ratio(1:1)
+						url ("#{value(this.profileImageURL)}")
+						object-fit (Cover)
+					}
+					paragraph {
+						value ("닉네임 : #{value(this.nickName)}")
+						style (Title_L)}
+					
+					paragraph {
+						value ("국가 : #{value(this.countryISO)}")
+						style (Detail_L_Soft)
+						
+					}
+				}
+			}
+		}
+	}
+}

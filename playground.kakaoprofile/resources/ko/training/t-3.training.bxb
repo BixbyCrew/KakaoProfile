@@ -1,0 +1,5 @@
+train (t-366n6zp01gwi1v8tv31oilpfy) {
+  utterance ("[g:kakaoResult] 카카오톡 (프로필)[v:kakaoProfile] 찾아줘")
+  plan (Y2BmUC7ISaxML8ovzUvRy07MTswvKMpPy8xJhXCCUotLc0oY5HEpCoDQDCp4TYGpYmJgBGIGIMnIAAJMEAwA)
+  last-modified (1569652422463)
+}

@@ -1,0 +1,3 @@
+text (profileImageURL) {
+  description (카톡 프로필 이미지 URL)
+}

@@ -1,0 +1,3 @@
+text (countryISO) {
+  description (카카오톡의 국가코드)
+}

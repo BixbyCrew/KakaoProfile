@@ -11,20 +11,23 @@
 var http    = require("http");
 var console = require("console");
 
-module.exports.function = function profile (kakao) {
+
+module.exports.function = function profile (kakaoProfile) {
+console.log(kakaoProfile)
 let options = {
-    format : 'json',
+    format: 'json',
     headers: {
-      'Authorization': 'Bearer xxxxxxxxxxxxxxxxxxdoxitxyourselfxxxxxxxxxxxxxxxxxxxxxxx'
+      'Authorization': 'Bearer xxxxxxxdoxitxyourselfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     },
   };
-let url     = ""
+let url = "https://kapi.kakao.com/v1/api/talk/profile"
 let results = http.getUrl(url, options);
 
 //프로필없는 경우
 if (results.profileImageURL == ""){
-  results.profileImageURL = "/images/default.png"
-  results.thumbnailURL    = "/images/default.png"
+  results.profileImageURL = "/images/bixby.png"
+  results.thumbnailURL    = "/images/bixby.png"
 }
+
 return results
 }

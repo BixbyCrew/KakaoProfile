@@ -1,0 +1,5 @@
+train (t-mmuan3cg05niecu23gvzrm1o1) {
+  utterance ("[g:kakaoResult] 카카오톡 (프로필)[v:kakaoProfile] 보여줘")
+  plan (Y2BmUC7ISaxML8ovzUvRy07MTswvKMpPy8xJhXCCUotLc0oY5HEpCoDQDCp4TYGpYmJgBGIGIMnIAAJMEAwA)
+  last-modified (1569651994410)
+}

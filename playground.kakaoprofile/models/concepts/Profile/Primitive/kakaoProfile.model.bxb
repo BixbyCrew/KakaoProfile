@@ -1,0 +1,3 @@
+text (kakaoProfile) {
+  description ('프로필'이란 input을 받기 위한 concept)
+}
